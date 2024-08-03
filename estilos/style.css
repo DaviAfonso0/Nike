@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #65A3D5;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+    height: 100vh;
+}
+section{
+    box-shadow: 10px 10px 10px #4c799e42;
+    padding: 10px;
+}
+.ul{
+    list-style-type: none;
+    position: relative;
+}
+.imagem{
+    float: left;
+}
+.texto{
+    float: right;
+    position: absolute;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+p{
+    color: white;
+    font-size: 19px;
+    width: 400px;
+}
+.nike{
+    filter: drop-shadow(30px 30px 5px #05305362);
+}
